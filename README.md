@@ -1,6 +1,6 @@
 # React Login Project
 
-##Description
+## Description
 This project is a React-based login system that utilizes EntityFramework and Microsoft Identity for credential management. It uses SQL Server as the database to store user authentication data and roles. The goal of this project is to provide a secure and efficient authentication system for web applications.
 
 ## Features
