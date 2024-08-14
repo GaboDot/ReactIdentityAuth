@@ -1,6 +1,7 @@
+import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
-function LogoutLink(props: { children: React.ReactNode }) {
+function LogoutButton() {
 
     const navigate = useNavigate();
 
@@ -32,9 +33,11 @@ function LogoutLink(props: { children: React.ReactNode }) {
 
     return (
         <>
-            <a href="#" onClick={handleSubmit}>{props.children}</a>
+             <Button color="inherit" href="#" onClick={handleSubmit} variant="outlined">
+                Logout
+             </Button>
         </>
     );
 }
 
-export default LogoutLink;
+export default LogoutButton;

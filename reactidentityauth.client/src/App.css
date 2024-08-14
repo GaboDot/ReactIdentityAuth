@@ -1,6 +1,11 @@
 ﻿#root {
     width: 100%;
     min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
 }
 
 th, td {
